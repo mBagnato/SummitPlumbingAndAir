@@ -1,8 +1,9 @@
 
 /* NAV BAR */
 nav {
-    
+    background-color: white;
     height: 18vh;
+    
 }
 
 .navbar-nav {
@@ -294,6 +295,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border-top: solid 1px rgb(0, 119, 255);
 }
 
 .footer-col-1 {
