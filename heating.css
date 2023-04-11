@@ -1,0 +1,79 @@
+.background-heat {
+    height: 90vh;
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.heat-first-header {
+    position: absolute;
+    top: 50%;
+    margin-left: 20%;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.first-pic-left {
+    width: 100%;
+    filter: brightness(30%);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.gas-heading {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+.gas-para {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.enquire-but {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 15px 15px;
+    background-color: rgb(59, 98, 191);
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: 700;
+}
+
+.partTwo-heading {
+    font-weight: 900;
+    color: white;
+}
+
+.tick-of-boxes {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+.heating-bot-sec {
+    background-color: white;
+    margin-top: 7%;
+    
+}
+
+.heating-bot-con {
+    background-color: rgb(57, 94, 182);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.small-end-heading {
+    color: rgb(13, 11, 27);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.black {
+    color: black;
+}
