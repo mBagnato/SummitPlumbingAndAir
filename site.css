@@ -295,7 +295,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-top: solid 1px rgb(0, 119, 255);
+    border-top: solid 1px rgb(0, 91, 195);
 }
 
 .footer-col-1 {
@@ -345,4 +345,8 @@ nav {
 .foot-location {
     font-size: 20px;
     font-weight: 500;
+}
+
+.backgroundWhite {
+    background-color: white;
 }
