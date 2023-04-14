@@ -2,7 +2,13 @@
 /* NAV BAR */
 nav {
     background-color: white;
-    height: 18vh;
+    height: 19vh;
+
+    
+}
+
+.nav-dropdown-style {
+    background-color: white;
     
 }
 
@@ -69,6 +75,8 @@ nav {
     padding: 15px 20px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    font-size: 27px;
+    text-decoration: none;
 }
 
 @media (max-width:800px) {
