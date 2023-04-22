@@ -26,6 +26,7 @@ nav {
 
 .nav-pic {
     margin-left: 25%;
+    
 }
 
 /* END OF NAV BAR */ 
@@ -50,9 +51,10 @@ nav {
 .first-header-text-one {
     color: white;
     opacity: 0.7;
-    margin-top: 20%;
+    margin-top: 28%;
     margin-bottom: 1%;
     font-size: 30px;
+    font-weight: 900;
     
 }
 
@@ -66,9 +68,9 @@ nav {
 .first-header-text-two {
     color: rgb(27, 24, 24);
     position: absolute;
-    width: 600px;
+    width: 500px;
     top: 80%;
-    margin-left: 28%;
+    margin-left: 31%;
     color: white;
     font-weight: 800;
     background-color: rgb(30, 94, 178);
@@ -104,7 +106,8 @@ nav {
     padding-top: 2%;
     width: 33%;
     color: rgb(12, 12, 12);
-    background-color: rgb(214, 216, 219);
+    background-color: rgb(227, 228, 228);
+    
     
 }
 
@@ -130,7 +133,8 @@ nav {
     width: 33.5%;
     padding-top: 2%;
     color: rgb(2, 2, 2);
-    background-color: rgb(182, 184, 186);
+    background-color: rgb(220, 221, 221);
+    
 }
 
 .cooling-second-div:hover {
@@ -155,7 +159,8 @@ nav {
     width: 33.5%;
     padding-top: 2%;
     color: rgb(4, 3, 3);
-    background-color: rgb(137, 137, 137);
+    background-color: rgb(227, 228, 228);
+    
     
 }
 
@@ -312,6 +317,12 @@ nav {
 
 .review-pos {
     padding-top: 5%;
+}
+
+@media (max-width: 600px) {
+    .review.pos {
+        margin-top: -5%;
+    }
 }
 
 
