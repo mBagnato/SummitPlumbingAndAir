@@ -58,23 +58,22 @@ nav {
 
 .first-header-text {
     color: white;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 15%;
-    font-size: 50px;
+    font-size: 43px;
 }
 
 .first-header-text-two {
     color: rgb(27, 24, 24);
     position: absolute;
-    width: 400px;
+    width: 600px;
     top: 80%;
-    margin-left: 35%;
+    margin-left: 28%;
     color: white;
     font-weight: 800;
     background-color: rgb(30, 94, 178);
     padding: 15px 20px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 30px;
     font-size: 27px;
     text-decoration: none;
 }
@@ -95,7 +94,7 @@ nav {
 
 .learn-more-tabs {
     margin-top: 1%;
-    margin-left: 13%;
+    
 }
 
 .heating-first-div {
@@ -103,10 +102,23 @@ nav {
     flex-direction: column;
     height: 300px;
     padding-top: 2%;
-    border-radius: 30px;
-    color: white;
-    background-color: rgb(30, 94, 178);
+    width: 33%;
+    color: rgb(12, 12, 12);
+    background-color: rgb(214, 216, 219);
     
+}
+
+.heating-first-div:hover {
+    background-color: rgb(4, 91, 205);
+    color: white;
+    transition: 1s;
+}
+
+@media (max-width:600px) {
+    .heating-first-div {
+
+        width: 100%;
+    }
 }
 
 
@@ -115,12 +127,23 @@ nav {
     display: flex;
     flex-direction: column;
     height: 300px;
+    width: 33.5%;
     padding-top: 2%;
-    border-radius: 30px;
-    color: white;
-    background-color: rgb(30, 94, 178);
-    
+    color: rgb(2, 2, 2);
+    background-color: rgb(182, 184, 186);
+}
 
+.cooling-second-div:hover {
+    background-color: rgb(4, 91, 205);
+    color: white;
+    transition: 1s;
+}
+
+@media (max-width:600px) {
+    .cooling-second-div {
+
+        width: 100%;
+    }
 }
 
 
@@ -129,11 +152,24 @@ nav {
     display: flex;
     flex-direction: column;
     height: 300px;
+    width: 33.5%;
     padding-top: 2%;
-    border-radius: 30px;
-    color: white;
-    background-color: rgb(30, 94, 178);
+    color: rgb(4, 3, 3);
+    background-color: rgb(137, 137, 137);
     
+}
+
+.splitSystem-div:hover {
+    background-color: rgb(4, 91, 205);
+    color: white;
+    transition: 1s;
+}
+
+@media (max-width:600px) {
+    .splitSystem-div {
+
+        width: 100%;
+    }
 }
 
 
@@ -147,9 +183,14 @@ nav {
     justify-content: center;
     padding: 10px 10px;
     background-color: rgb(59, 58, 58);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 25px;
+    border-radius: 20px;
     margin-top: 8%;
+    font-weight: 700;
+}
+
+.learn-more:hover {
+    background-color: white;
+    color: black;
     
 }
 
@@ -225,15 +266,7 @@ nav {
     font-weight: 700;
 }
 
-.list-span {
-    display: inline-block;
-    font-weight: 500;
-    background-color: rgb(18, 84, 141);
-    color: white;
-    font-size: 15px;
-    padding: 10px 10px;
-    margin-top: 5%;
-}
+
 
 
 
@@ -248,16 +281,12 @@ nav {
 }
 
 .last-con-header {
-    color: rgb(18, 84, 141);
+    color: rgb(5, 83, 209);
     font-weight: 700;
+    font-size: 45px;
 }
 
-.last-con-pic {
-    width: 300px;
-    height: 300px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
+
 
 .blue {
     color: rgb(18, 84, 141);
@@ -277,8 +306,14 @@ nav {
     background-color: rgb(114, 187, 242);
     border-radius: 15px;
     padding: 20px 20px;
+
     
 }
+
+.review-pos {
+    padding-top: 5%;
+}
+
 
 .review-box-two {
     background-color: rgb(114, 187, 242);
