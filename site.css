@@ -2,7 +2,7 @@
 /* NAV BAR */
 nav {
     background-color: white;
-    height: 19vh;
+    height: 12vh;
 
     
 }
@@ -13,7 +13,7 @@ nav {
 }
 
 .navbar-nav {
-    
+    background-color: white;
     margin-left: 30%;
     width: 200%;
 }
@@ -24,10 +24,7 @@ nav {
     font-weight: 700;
 }
 
-.nav-pic {
-    margin-left: 25%;
-    
-}
+
 
 /* END OF NAV BAR */ 
 
@@ -48,43 +45,55 @@ nav {
     width: 101%;
 }
 
-.first-header-text-one {
-    color: white;
-    opacity: 0.7;
-    margin-top: 28%;
-    margin-bottom: 1%;
-    font-size: 30px;
-    font-weight: 900;
-    
-}
+
 
 .first-header-text {
     color: white;
-    font-weight: 700;
-    margin-bottom: 15%;
-    font-size: 43px;
+    font-weight: 900;
+    margin-top: 25%;
+    font-size: 70px;
 }
 
-.first-header-text-two {
-    color: rgb(27, 24, 24);
-    position: absolute;
-    width: 500px;
-    top: 80%;
-    margin-left: 31%;
-    color: white;
-    font-weight: 800;
-    background-color: rgb(30, 94, 178);
-    padding: 15px 20px;
-    border-radius: 30px;
-    font-size: 27px;
-    text-decoration: none;
-}
-
-@media (max-width:800px) {
-    .first-header-text-two {
-        margin-left: 15%;
+@media (max-width: 700px) {
+    .first-header-text {
+        margin-top: 40%;
     }
 }
+
+@media (max-width: 500px) {
+    .first-header-text {
+        margin-top: 70%;
+    }
+}
+
+.logo-front {
+    position: absolute;
+    width: 500px;
+    top: 12%;
+    left: 33%;
+    opacity: 0.5;
+}
+
+@media (max-width: 1038px) {
+    .logo-front {
+        width: 400px;
+        left: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo-front {
+        left: 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-front {
+        left: 1%;
+    }
+}
+
+
 
 /* END OF FIRST BACKGROUND */
 
@@ -112,7 +121,7 @@ nav {
 }
 
 .heating-first-div:hover {
-    background-color: rgb(4, 91, 205);
+    background-color: rgb(84, 170, 235);
     color: white;
     transition: 1s;
 }
@@ -138,7 +147,7 @@ nav {
 }
 
 .cooling-second-div:hover {
-    background-color: rgb(4, 91, 205);
+    background-color: rgb(84, 170, 235);
     color: white;
     transition: 1s;
 }
@@ -165,7 +174,7 @@ nav {
 }
 
 .splitSystem-div:hover {
-    background-color: rgb(4, 91, 205);
+    background-color: rgb(84, 170, 235);
     color: white;
     transition: 1s;
 }
@@ -216,6 +225,7 @@ nav {
 .fast-res-heading {
     font-weight: 800;
     color: rgb(66, 90, 198);
+    
 }
 
 .fast-res-para {
@@ -277,24 +287,59 @@ nav {
 
 /* LAST CONTAINER */
 
-.last-con {
+.last-con-header {
+    color: rgb(5, 110, 209);
+    font-weight: 700;
+    font-size: 45px;
     
+}
+
+.last-con {
+    border: solid 10px rgb(9, 126, 172);
+    border-style: double;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     padding: 30px 30px;
-    background-color: rgb(241, 241, 246);
+    background-color: rgb(235, 232, 232);   
 }
-
-.last-con-header {
-    color: rgb(5, 83, 209);
-    font-weight: 700;
-    font-size: 45px;
-}
-
 
 
 .blue {
     color: rgb(18, 84, 141);
+}
+
+.home-para-one {
+    border: solid 10px rgb(9, 126, 172);
+    border-style: double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+}
+
+.home-para-two {
+    border: solid 10px rgb(9, 126, 172);
+    border-style: double;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+.home-para-three {
+    border: solid 10px rgb(9, 126, 172);
+    border-style: double;
+    margin-top: 3%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+}
+
+.home-para-four {
+    border: solid 10px rgb(9, 126, 172);
+    border-style: double;
+    margin-top: 3%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
 }
 
 /* END OF LAST CONTAINER */ 
@@ -309,10 +354,20 @@ nav {
 
 .review-box-one {
     background-color: rgb(114, 187, 242);
-    border-radius: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     padding: 20px 20px;
-
+    width: 70%;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
     
+}
+
+@media (max-width: 600px) {
+    .review-box-one {
+        width: 100%;
+    }
 }
 
 .review-pos {
@@ -321,17 +376,13 @@ nav {
 
 @media (max-width: 600px) {
     .review.pos {
-        margin-top: -5%;
+        margin-top: -10%;
+        
     }
 }
 
 
-.review-box-two {
-    background-color: rgb(114, 187, 242);
-    border-radius: 15px;
-    padding: 20px 20px;
-    
-}
+
 
 .review-con {
     
@@ -341,6 +392,10 @@ nav {
     background-size:auto;
     background-repeat: no-repeat;
 }
+
+
+
+
 
 /* FOOTER START */ 
 
@@ -404,3 +459,15 @@ nav {
 .backgroundWhite {
     background-color: white;
 }
+
+.myElement {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+  }
+  
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
