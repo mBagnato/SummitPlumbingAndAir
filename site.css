@@ -1,19 +1,23 @@
 
 /* NAV BAR */
+
+
 nav {
     background-color: white;
-    height: 12vh;
-
     
+    height: 12vh;
+    
+
 }
 
+
 .nav-dropdown-style {
-    background-color: white;
+    background-color: transparent;
     
 }
 
 .navbar-nav {
-    background-color: white;
+    background-color: transparent;
     margin-left: 30%;
     width: 200%;
 }
@@ -21,7 +25,12 @@ nav {
 .nav-link {
     color: rgb(42, 57, 156);
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
+    
+}
+
+.nav-link:hover {
+    color: black;
 }
 
 
@@ -460,10 +469,14 @@ nav {
     background-color: white;
 }
 
+
+/* SCROLL ANIMATIONS */
+
 .myElement {
     opacity: 0;
     transform: translateX(-50%);
-    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    
   }
   
 .visible {
