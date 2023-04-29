@@ -62,7 +62,7 @@ nav {
     font-weight: 900;
     margin-top: 25%;
     font-size: 70px;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 @media (max-width: 700px) {
@@ -298,20 +298,20 @@ nav {
 
 /* LAST CONTAINER */
 
-.last-con-header {
-    color: rgb(5, 110, 209);
-    font-weight: 700;
-    font-size: 45px;
+.last-con {
+    width: 80%;
+    height: 500px;
+    overflow-y: scroll;
     
 }
 
-.last-con {
-    border: solid 10px rgb(9, 126, 172);
-    border-style: double;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    padding: 30px 30px;
-    background-color: rgb(235, 232, 232);   
+.last-nav-con {
+    margin-top: 8%;
+    width: 80%;
+}
+
+.last-con-text {
+    font-size: 20px;
 }
 
 
@@ -319,39 +319,9 @@ nav {
     color: rgb(18, 84, 141);
 }
 
-.home-para-one {
-    border: solid 10px rgb(9, 126, 172);
-    border-style: double;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: white;
-}
 
-.home-para-two {
-    border: solid 10px rgb(9, 126, 172);
-    border-style: double;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: white;
-}
 
-.home-para-three {
-    border: solid 10px rgb(9, 126, 172);
-    border-style: double;
-    margin-top: 3%;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: white;
-}
 
-.home-para-four {
-    border: solid 10px rgb(9, 126, 172);
-    border-style: double;
-    margin-top: 3%;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: white;
-}
 
 /* END OF LAST CONTAINER */ 
 
