@@ -338,10 +338,11 @@ nav {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 20px 20px;
-    width: 70%;
+    width: 50%;
     font-size: 24px;
     color: white;
     font-weight: 600;
+    opacity: 0.8;
     
 }
 
@@ -372,6 +373,7 @@ nav {
     background-position: center;
     background-size:auto;
     background-repeat: no-repeat;
+
 }
 
 
