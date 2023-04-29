@@ -5,7 +5,7 @@
 nav {
     background-color: white;
     
-    height: 12vh;
+    height: 10vh;
     
 
 }
@@ -40,7 +40,7 @@ nav {
 /* FIRST BACKGROUND AND TEXT */
 
 .main-background {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ nav {
 .logo-front {
     position: absolute;
     width: 500px;
-    top: 12%;
+    top: 10%;
     left: 33%;
     opacity: 0.5;
 }
