@@ -305,6 +305,12 @@ nav {
     
 }
 
+@media (max-width:800px) {
+    .last-nav-con {
+        padding-bottom: 10%;
+    }
+}
+
 .last-nav-con {
     margin-top: 8%;
     width: 80%;
@@ -327,9 +333,13 @@ nav {
 
 /* REVIEW SECTION */ 
 
+
+
+
 .review-header {
     font-weight: 800;
     color: rgb(18, 84, 141);
+    
 
 }
 
@@ -343,7 +353,6 @@ nav {
     color: white;
     font-weight: 600;
     opacity: 0.8;
-    
 }
 
 @media (max-width: 600px) {
@@ -352,9 +361,7 @@ nav {
     }
 }
 
-.review-pos {
-    padding-top: 5%;
-}
+
 
 @media (max-width: 600px) {
     .review.pos {
