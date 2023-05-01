@@ -4,17 +4,23 @@
 
 nav {
     background-color: white;
-    
     height: 10vh;
-    
-
 }
 
 
 .nav-dropdown-style {
     background-color: transparent;
+    width: 50vw;
+    border-radius: 30px;
+    
     
 }
+
+.navbar-collapse {
+    background-color: white;
+
+}
+
 
 .navbar-nav {
     background-color: transparent;
@@ -74,6 +80,7 @@ nav {
 @media (max-width: 500px) {
     .first-header-text {
         margin-top: 70%;
+        font-size: 40px;
     }
 }
 
@@ -112,6 +119,8 @@ nav {
 
 .first-con {
     flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 7%;
 }
 
 .learn-more-tabs {
@@ -311,6 +320,12 @@ nav {
     }
 }
 
+@media (max-width:600px) {
+    .last-nav-con {
+        padding-bottom: 20%;
+    }
+}
+
 .last-nav-con {
     margin-top: 8%;
     width: 80%;
@@ -388,6 +403,12 @@ nav {
 
 
 /* FOOTER START */ 
+
+@media (max-width: 600px) {
+    .footer-con {
+        margin-left: 5%;
+    }
+}
 
 .footer-row {
     height: 20vh;
