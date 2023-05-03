@@ -228,6 +228,12 @@ nav {
     
 }
 
+@media (min-width:1400px) {
+   .learn-more {
+    margin-top: 2%;
+   }
+}
+
 .logo-first {
     margin-top: 2%;
     padding-bottom: 5%;
