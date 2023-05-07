@@ -58,6 +58,7 @@ nav {
     background-image: linear-gradient(rgba(42, 41, 41, 0.527),rgb(53, 52, 52)), url(Img/main-background.jpg);
     height: 100vh;
     width: 101%;
+    background-attachment: fixed;
     
 }
 
@@ -359,49 +360,29 @@ nav {
 
 .review-header {
     font-weight: 800;
-    color: rgb(18, 84, 141);
+    color: rgb(255, 251, 251);
+    font-size: 60px;
+    letter-spacing: 1px;
     
-
 }
-
-.review-box-one {
-    background-color: rgb(114, 187, 242);
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding: 20px 20px;
-    width: 50%;
-    font-size: 24px;
-    color: white;
-    font-weight: 600;
-    opacity: 0.8;
-}
-
-@media (max-width: 600px) {
-    .review-box-one {
-        width: 100%;
-    }
-}
-
-
-
-@media (max-width: 600px) {
-    .review.pos {
-        margin-top: -10%;
-        
-    }
-}
-
-
-
 
 .review-con {
     
-    height: 60vh;
-    background-image: linear-gradient(rgba(42, 41, 41, 0.527),rgb(53, 52, 52)),url(Img/realLogo.jpg);
+    height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgb(21, 20, 20)),url(Img/realLogo.jpg);
+    overflow-y: scroll;
     background-position: center;
     background-size:auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
+}
+
+.review-para {
+    color: white;
+    font-size: 20px;
+    margin-top: 20%;
+    
 }
 
 
